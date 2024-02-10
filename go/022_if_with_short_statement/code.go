@@ -5,6 +5,8 @@ import (
 	"math"
 )
 
+//Like for, the if statement can start with a short statement to execute before the condition.
+
 func main() {
 	fmt.Println(
 		pow(3, 2, 10),
