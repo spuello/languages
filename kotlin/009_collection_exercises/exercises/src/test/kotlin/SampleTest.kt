@@ -12,7 +12,9 @@ class SampleTest {
         assertEquals(expected, result)
     }
 
+    @Test
+    fun testSumFivePlusTenIsFifteen() {
 
-  
+    }
 }
 
