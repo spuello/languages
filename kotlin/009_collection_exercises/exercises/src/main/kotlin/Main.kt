@@ -7,8 +7,8 @@ fun main() {
     println("Hello World!")
 }
 
-class Sample (){
+class Sample() {
     fun sum(i: Int, i1: Int): Int {
-        return 10
+        return i + i1
     }
 }
