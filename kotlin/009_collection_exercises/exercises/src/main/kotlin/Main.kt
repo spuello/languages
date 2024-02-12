@@ -11,8 +11,6 @@ class CollectionExercises() {
         val SUPPORTED = setOf("HTTP", "HTTPS", "FTP")
         val requested = "smtp"
 
-        val isSupported = SUPPORTED.contains(requested)
-
-        return isSupported;
+        return SUPPORTED.contains(requested)
     }
 }
