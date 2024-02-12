@@ -19,5 +19,11 @@ class CollectionExercisesTest {
         assertEquals(expected, result
         )
     }
+    @Test
+    fun testListsAmountOfNumbers(){
+
+    }
+
+
 }
 
