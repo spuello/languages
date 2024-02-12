@@ -16,11 +16,19 @@ class CollectionExercisesTest {
     fun testSumFivePlusTenIsFifteen() {
         val expected = 15
         val result = sut.sum(5, 10)
-        assertEquals(expected, result
+        assertEquals(
+            expected, result
         )
     }
+
     @Test
-    fun testListsAmountOfNumbers(){
+    fun testListsAmountOfNumbers() {
+        val expected = 5
+        val result = sut.amountOfNumbers()
+
+        kotlin.test.assertEquals(
+            expected, result
+        )
 
     }
 
