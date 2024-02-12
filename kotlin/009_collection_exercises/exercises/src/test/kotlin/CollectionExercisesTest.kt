@@ -1,9 +1,9 @@
-import org.example.Sample
+import org.example.CollectionExercises
 import org.junit.jupiter.api.Assertions.*
 import org.junit.jupiter.api.Test
 
-class SampleTest {
-    private val sut: Sample = Sample()
+class CollectionExercisesTest {
+    private val sut: CollectionExercises = CollectionExercises()
 
     @Test
     fun testSum() {
