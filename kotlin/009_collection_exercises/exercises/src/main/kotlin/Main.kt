@@ -9,6 +9,6 @@ class CollectionExercises() {
 
     fun isProtocolSMTPSupported(requested: String): Boolean {
         val SUPPORTED = setOf("HTTP", "HTTPS", "FTP", "smtp")
-        return SUPPORTED.contains(requested)
+        return SUPPORTED.contains(requested.lowercase())
     }
 }

@@ -21,7 +21,7 @@ class CollectionExercisesTest {
 
     @Test()
     fun testSMTPProtocolIsNotSupportedUppercase() {
-        val expected = false;
+        val expected = true;
         val result = sut.isProtocolSMTPSupported("SMTP")
         assertEquals(expected, result)
     }
