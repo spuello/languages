@@ -15,6 +15,7 @@ class SampleTest {
     @Test
     fun testSumFivePlusTenIsFifteen() {
         val expected = 15
+        val result = sut.sum(5, 10)
     }
 }
 
