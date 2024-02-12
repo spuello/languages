@@ -11,5 +11,10 @@ class CollectionExercisesTest {
         val result = sut.amountOfNumbers()
         assertEquals(expected, result)
     }
+
+    @Test()
+    fun testSMTPProtocolIsNotSupported() {
+
+    }
 }
 
