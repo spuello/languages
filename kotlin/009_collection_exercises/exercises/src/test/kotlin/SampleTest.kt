@@ -6,8 +6,10 @@ class SampleTest {
     private val sut: Sample = Sample()
 
     @Test
-    fun testSum(){
-
+    fun testSum() {
+        val expected = 10
+        val result = sut.sum(4, 10)
+        assertEquals(expected, result)
     }
 
 }
