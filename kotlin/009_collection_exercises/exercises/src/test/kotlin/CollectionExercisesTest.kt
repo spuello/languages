@@ -13,9 +13,16 @@ class CollectionExercisesTest {
     }
 
     @Test()
-    fun testSMTPProtocolIsNotSupported() {
+    fun testSMTPProtocolIsNotSupportedLowercase() {
         val expected = false;
-        val result = sut.isProtocolSMTPSupported()
+        val result = sut.isProtocolSMTPSupported("SMTP")
+        assertEquals(expected, result)
+    }
+
+    @Test()
+    fun testSMTPProtocolIsNotSupportedUppercase() {
+        val expected = false;
+        val result = sut.isProtocolSMTPSupported("SMTP")
         assertEquals(expected, result)
     }
 }

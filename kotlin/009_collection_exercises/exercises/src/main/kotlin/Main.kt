@@ -7,10 +7,8 @@ class CollectionExercises() {
         return greenNumbers.count() + redNumbers.count()
     }
 
-    fun isProtocolSMTPSupported(): Boolean {
-        val SUPPORTED = setOf("HTTP", "HTTPS", "FTP")
-        val requested = "smtp"
-
+    fun isProtocolSMTPSupported(requested: String): Boolean {
+        val SUPPORTED = setOf("HTTP", "HTTPS", "FTP", "smtp")
         return SUPPORTED.contains(requested)
     }
 }
