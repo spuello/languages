@@ -5,7 +5,7 @@ internal class CollectionExercisesTest {
     private val sut: CollectionExercises = CollectionExercises()
     @Test
     fun testSum() {
-        val expected = 43
-        kotlin.test.assertEquals(expected, sut.quantityOfNumbers(41, 2))
+        val expected = 5
+        kotlin.test.assertEquals(expected, sut.quantityOfNumbers())
     }
 }
