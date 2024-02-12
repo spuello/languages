@@ -12,5 +12,11 @@ class SampleTest {
         assertEquals(expected, result)
     }
 
+
+    fun testSumFivePlusTenIsFifteen() {
+        val expected = 15
+        val result = sut.sum(5, 10)
+        assertEquals(expected, result)
+    }
 }
 
