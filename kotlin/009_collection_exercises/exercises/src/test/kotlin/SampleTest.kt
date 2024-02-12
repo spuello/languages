@@ -8,7 +8,7 @@ class SampleTest {
     @Test
     fun testSum() {
         val expected = 10
-        val result = sut.sum(4, 10)
+        val result = sut.sum(4, 6)
         assertEquals(expected, result)
     }
 
