@@ -14,7 +14,9 @@ class CollectionExercisesTest {
 
     @Test()
     fun testSMTPProtocolIsNotSupported() {
-
+        val expected = false;
+        val result = sut.isProtocolSMTPSupported()
+        assertEquals(expected, result)
     }
 }
 

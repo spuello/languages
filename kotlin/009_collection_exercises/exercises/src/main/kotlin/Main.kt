@@ -6,4 +6,8 @@ class CollectionExercises() {
         val redNumbers = listOf(17, 2)
         return greenNumbers.count() + redNumbers.count()
     }
+
+    fun isProtocolSMTPSupported(): Boolean {
+        return false;
+    }
 }
