@@ -8,6 +8,11 @@ class CollectionExercises() {
     }
 
     fun isProtocolSMTPSupported(): Boolean {
-        return false;
+        val SUPPORTED = setOf("HTTP", "HTTPS", "FTP")
+        val requested = "smtp"
+
+        val isSupported = SUPPORTED.contains(requested)
+
+        return isSupported;
     }
 }
