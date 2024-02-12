@@ -8,7 +8,7 @@ fun main() {
 }
 
 class Sample() {
-    fun sum(i: Int, i1: Int): Int {
-        return i + i1
+    fun sum(a: Int, b: Int): Int {
+        return a + b
     }
 }
